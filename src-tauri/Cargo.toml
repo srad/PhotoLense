@@ -1,0 +1,44 @@
+[package]
+name = "photo-lense"
+version = "0.1.0"
+description = "A Tauri photo management app with AI classification"
+authors = ["you"]
+edition = "2021"
+
+[lib]
+name = "photo_lense_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-opener = "2"
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ort = { version = "2.0.0-rc.11", features = ["download-binaries", "copy-dylibs", "directml", "ndarray"] }
+ndarray = "0.17"
+image = "0.25"
+kamadak-exif = "0.5"
+reqwest = { version = "0.12", features = ["stream", "json"] }
+base64 = "0.22"
+walkdir = "2"
+tokio = { version = "1", features = ["fs", "sync"] }
+futures = "0.3"
+rusqlite = { version = "0.38.0", features = ["bundled"] }
+notify = "8.2.0"
+sqlite-vec = "0.1.6"
+zerocopy = { version = "0.8", features = ["derive"] }
+lab = "0.11.0"
+rayon = "1.11.0"
+kentro = "0.2.1"
+ndarray_kentro = { package = "ndarray", version = "0.16" }
+tauri-plugin-window-state = "2.4.1"
+
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.58", features = [
+    "Win32_Storage_FileSystem",
+    "Win32_Foundation",
+] }

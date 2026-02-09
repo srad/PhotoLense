@@ -1,0 +1,38 @@
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.app-error-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 12px;
+  background: rgba(243, 139, 168, 0.15);
+  border-top: 1px solid var(--error);
+  color: var(--error);
+  font-size: 13px;
+  flex-shrink: 0;
+}
+
+.app-error-bar button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  color: var(--error);
+  padding: 2px;
+  border-radius: var(--radius-sm);
+}
+
+.app-error-bar button:hover {
+  background: rgba(243, 139, 168, 0.2);
+}
