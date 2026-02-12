@@ -146,4 +146,4 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## License
 
-PolyForm Noncommercial License 1.0.0
+[PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/) means it is free for non-commecial purposes.
