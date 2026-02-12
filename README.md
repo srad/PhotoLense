@@ -9,9 +9,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/srad/PhotoLense/releases"><img src="https://img.shields.io/github/v/release/srad/PhotoLense?style=flat-square&color=blue" alt="Release"></a>
-  <a href="https://github.com/srad/PhotoLense/blob/main/LICENSE"><img src="https://img.shields.io/github/license/srad/PhotoLense?style=flat-square" alt="License"></a>
-  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square" alt="Platform">
+  <a href="https://github.com/srad/PhotoLense/releases"><img src="https://img.shields.io/github/v/release/srad/PhotoLense?style=flat-square&color=blue&include_prereleases" alt="Release"></a>
+  <!--<a href="https://github.com/srad/PhotoLense/blob/main/LICENSE"><img src="https://img.shields.io/github/license/srad/PhotoLense?style=flat-square" alt="License"></a>-->
+  <a href="https://github.com/srad/PhotoLense/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-PolyForm%20Noncommercial%201.0.0-blue?style=flat-square" alt="License">
+  </a>
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square" alt="Platform"><br/>
   <img src="https://img.shields.io/badge/tauri-v2-blue?style=flat-square&logo=tauri&logoColor=white" alt="Tauri v2">
   <img src="https://img.shields.io/badge/react-18-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React 18">
   <img src="https://img.shields.io/badge/rust-2021-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Rust">
